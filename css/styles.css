@@ -117,3 +117,58 @@ span {
     margin-left: .5rem;
 }
 /* ----------------- Fim Hero da página -------------------------- */
+
+/* ------------------ Energy Solututions --------------------------*/
+
+.container {
+    padding: 1rem 4rem;
+    margin-top: 3rem;
+}
+
+.titles {
+    font-size: 4.5rem;
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.energy-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.energy-grid-item {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.energy-grid-item img {
+    border-radius: var(--radius);
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.energy-grid-item:hover img {
+    filter: grayscale(0);
+    scale: 1.05;
+}
+
+.energy-grid-item p {
+   position: absolute;
+   bottom: 2rem;
+   left: 1rem;
+   font-size: 1.5rem;
+   font-weight: 700;
+   letter-spacing: 1px;
+   transition: .5s;
+}
+
+.energy-grid-item:hover p {
+   letter-spacing: 3px;
+}
+
+/* ------------------ Fim Energy Solututions --------------------------*/
+
